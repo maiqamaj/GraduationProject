@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+#Window 
+{
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.8);
+   z-index: 99999;
+   height: 100%;
+   width: 100%;
+}
+.WindowC 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    background: #f8f6fd;
+    width: 40%;
+ 
+    padding: 25px;
+}
+.close 
+
+{
+  color: black;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.button {
+ font-family:Courier New;
+ font-size:16px;
+  border-bottom-color:#6F479F;
+  background-color: white;
+  border-color:#6F479F;
+  color: #6F479F;
+  border-radius: 60px;
+  box-shadow: 0 5px #6F479F; 
+}
+.button:active {
+	border:none;
+  background-color: #6F479F;
+  box-shadow: 0 5px #666;
+  transform: translateY(15px);
+}
+.button:hover {
+	border:none;
+	border-radius: 60px;
+    background-color: #6F479F;
+    color: white;
+}
+.hoverable,.hoverable:hover
+{transition:all .55s ease-in-out}
+
+.divider-new,.navbar .nav-flex-icons
+{flex-direction:row}
+
+.waves-effect{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}
+.mdb-color{background-color:#6F479F!important}
+.mdb-color-text{color:#6F479F!important}
+
+
+.white{background-color:#fff!important}
+.white-text{color:#fff!important}
+
+
+.border-light{border-color:#e0e0e0!important}
+
+
+.waves-effect{position:relative;overflow:hidden;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
+
+a.waves-effect,a.waves-light{display:inline-block ; }
+
+
+.card,.navbar,.pagination .page-item.active .page-link{box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}
+
+
+
+.navbar .breadcrumb .breadcrumb-item.active,.navbar .breadcrumb .breadcrumb-item:before{color:rgba(255,255,255,.65)}
+.navbar .navbar-toggler{border-width:0;outline:0}
+.navbar .nav-item .nav-link{display:block}
+.navbar .nav-item .nav-link.disabled:active{pointer-events:none}
+.navbar .nav-item .nav-link .fab,.navbar .nav-item .nav-link .far,.navbar .nav-item .nav-link .fas{padding-right:3px;padding-left:3px}
+@media (max-width:992px){.navbar .container{width:100%}
+.navbar .container .navbar-toggler-right{right:0}
+.navbar .nav-item .nav-link{padding-right:6px;padding-left:6px}}
+.navbar .dropdown-menu{position:absolute!important;margin-top:0}
+.navbar .dropdown-menu a{padding:10px;font-size:.9375rem;font-weight:300;color:#000}@media (max-width:600px){.navbar .dropdown-menu form{width:17rem}}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link.disbled,.navbar.navbar-light .navbar-nav .nav-item .nav-link.disbled:hover{color:rgba(0,0,0,.3)}
+
+.navbar.navbar-light .navbar-toggler-icon{cursor:pointer;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")}
+
+.navbar.navbar-light .breadcrumb .nav-item .nav-link,.navbar.navbar-light .navbar-nav .nav-item .nav-link{color:#000;transition:.35s}
+.navbar.navbar-light .breadcrumb .nav-item .nav-link:hover,.navbar.navbar-light .navbar-nav .nav-item .nav-link:hover{color:rgba(0,0,0,.7)}
+.navbar.navbar-light .breadcrumb .nav-item.active>
+.nav-link:hover,.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link:hover,.navbar.navbar-light .navbar-toggler,.navbar.navbar-light form .md-form .form-control{color:#000}.navbar.navbar-light .breadcrumb .nav-item.active>.nav-link,.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link{background-color:rgba(0,0,0,.1)}
+
+.navbar.navbar-dark .navbar-toggler-icon{cursor:pointer;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")}
+
+.navbar.navbar-dark form .md-form .form-control::placeholder{font-weight:300;color:#fff}@media (min-width:600px)
+{.navbar .dropdown-menu form{width:22rem}
+    
+.navbar.scrolling-navbar{padding-top:12px;padding-bottom:12px;transition:background .5s ease-in-out,padding .5s ease-in-out}
+.navbar.scrolling-navbar .navbar-nav>li{transition-duration:1s}
+    
+.navbar.scrolling-navbar.top-nav-collapse{padding-top:5px;padding-bottom:5px}}
+footer.page-footer a{color:azure}
